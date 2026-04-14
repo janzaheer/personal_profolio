@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiCode, FiServer, FiLayers, FiAward } from "react-icons/fi";
+import { FiCode, FiServer, FiCpu, FiAward } from "react-icons/fi";
 import SectionHeader from "./SectionHeader";
 import { aboutText } from "../data/siteData";
 
@@ -7,7 +7,7 @@ const highlights = [
   { icon: FiAward, label: "10+ Years", sublabel: "Experience" },
   { icon: FiServer, label: "Backend", sublabel: "Specialist" },
   { icon: FiCode, label: "50+", sublabel: "Projects Delivered" },
-  { icon: FiLayers, label: "Full Stack", sublabel: "Capabilities" },
+  { icon: FiCpu, label: "AI-Powered", sublabel: "Development" },
 ];
 
 export default function About() {

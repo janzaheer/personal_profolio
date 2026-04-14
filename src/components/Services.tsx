@@ -6,6 +6,7 @@ import {
   FiTarget,
   FiBox,
   FiTrendingUp,
+  FiCpu,
   FiCheck,
 } from "react-icons/fi";
 import SectionHeader from "./SectionHeader";
@@ -17,6 +18,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   automation: FiZap,
   tracking: FiTarget,
   saas: FiBox,
+  ai: FiCpu,
   performance: FiTrendingUp,
 };
 

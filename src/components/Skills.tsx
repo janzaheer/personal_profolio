@@ -6,6 +6,7 @@ import {
   FiDatabase,
   FiCloud,
   FiTool,
+  FiCpu,
 } from "react-icons/fi";
 import SectionHeader from "./SectionHeader";
 import { skills } from "../data/siteData";
@@ -16,6 +17,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   integrations: FiLink,
   databases: FiDatabase,
   devops: FiCloud,
+  ai: FiCpu,
   tools: FiTool,
 };
 

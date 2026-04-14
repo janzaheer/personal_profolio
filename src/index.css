@@ -42,7 +42,7 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-500 to-primary-700 dark:from-primary-400 dark:to-primary-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-500 via-primary-600 to-accent-500 dark:from-primary-400 dark:via-primary-500 dark:to-accent-400 bg-clip-text text-transparent;
   }
 
   .glass-card {

@@ -1,9 +1,9 @@
 export const siteData = {
   name: "Zaheer Jan",
   title: "Lead Platform Engineer",
-  tagline: "Software Engineer | Founder of Zedtac",
+  tagline: "Software Engineer | AI-Augmented Builder | Founder of Zedtac",
   description:
-    "Building scalable backend systems, APIs, and digital solutions that power modern businesses.",
+    "Building scalable backend systems, APIs, and AI-powered digital solutions that power modern businesses.",
   email: "zaheerjan0@gmail.com",
   phone: "+92 332 836 4441",
   location: "Quetta, Pakistan",
@@ -15,8 +15,9 @@ export const siteData = {
 export const aboutText = [
   "A professional Software Engineer with over 10 years of experience in software development, deployment, and system infrastructure. I specialize in building scalable backend systems, RESTful APIs, and automation pipelines that drive real business outcomes.",
   "My expertise lies in Python/Django ecosystem, where I've architected and shipped production systems for privacy-focused products, international remittance platforms, e-commerce solutions, and marketing automation engines.",
+  "I actively leverage AI as a professional multiplier — using tools like ChatGPT, GitHub Copilot, Claude, and Cursor AI to accelerate development, automate code reviews, generate boilerplate, debug complex systems, and build AI-integrated features. I believe the modern engineer isn't replaced by AI — they're amplified by it.",
   "As the founder of Zedtac, I bridge the gap between software engineering and digital marketing — building custom solutions for ads tracking, conversion systems, and SaaS platforms that help businesses scale.",
-  "I'm a self-learner who thrives in fast-paced environments, adapts quickly to new challenges, and delivers high-quality code with minimal supervision. My background spans backend development, cloud infrastructure (AWS), DevOps practices, and frontend development with Vue.js.",
+  "I'm a self-learner who thrives in fast-paced environments, adapts quickly to new challenges, and delivers high-quality code with minimal supervision. My background spans backend development, cloud infrastructure (AWS), DevOps practices, AI-augmented workflows, and frontend development with Vue.js.",
 ];
 
 export const skills = {
@@ -63,6 +64,19 @@ export const skills = {
       "CircleCI",
       "Heroku",
       "Netlify",
+    ],
+  },
+  ai: {
+    title: "AI & LLM Tools",
+    items: [
+      "ChatGPT / GPT-4",
+      "Claude AI",
+      "GitHub Copilot",
+      "Cursor AI",
+      "OpenAI API",
+      "LangChain",
+      "Prompt Engineering",
+      "RAG Pipelines",
     ],
   },
   tools: {
@@ -137,6 +151,17 @@ export const services = [
     icon: "saas",
   },
   {
+    title: "AI-Powered Development",
+    description:
+      "Integrating AI into the software development lifecycle and building AI-enhanced products. From LLM-powered features and intelligent automation to using AI tools for rapid prototyping, code generation, and debugging at scale.",
+    benefits: [
+      "LLM & OpenAI API integration",
+      "AI-assisted rapid development",
+      "Intelligent automation systems",
+    ],
+    icon: "ai",
+  },
+  {
     title: "Performance & Scaling",
     description:
       "Optimize existing systems for speed and scale. Database optimization, caching strategies, async processing, and infrastructure tuning for high-traffic applications.",
@@ -163,9 +188,10 @@ export const experience = [
       "Managed AWS infrastructure with Pulumi (Infrastructure as Code)",
       "Built containerized microservices with Docker",
       "Integrated critical services: SendGrid, Bandwidth, Sentry, Coralogix",
+      "Adopted AI-assisted development with Copilot and Cursor, boosting team velocity",
       "Established CI/CD pipelines with CircleCI and automated deployments",
     ],
-    tech: ["Python", "Django", "DRF", "Vue.js", "AWS", "Pulumi", "Docker", "PostgreSQL"],
+    tech: ["Python", "Django", "DRF", "Vue.js", "AWS", "Pulumi", "Docker", "PostgreSQL", "AI Tools"],
   },
   {
     company: "Creative Chaos",
@@ -195,9 +221,10 @@ export const experience = [
       "Designed architecture for multiple client projects",
       "Built REST APIs with Django REST Framework",
       "Led team and conducted code reviews",
+      "Integrated AI tools into development workflow for faster delivery cycles",
       "Managed Docker-based development environments with Redis & Elasticsearch",
     ],
-    tech: ["Python", "Django", "DRF", "Vue.js", "MySQL", "Docker", "Redis"],
+    tech: ["Python", "Django", "DRF", "Vue.js", "MySQL", "Docker", "Redis", "AI Tools"],
   },
   {
     company: "YouGotaGift.com",
@@ -288,6 +315,24 @@ export const projects = [
     outcome:
       "Enabled seamless cross-border transactions for thousands of users with regulatory compliance.",
     category: "FinTech",
+  },
+  {
+    title: "AI-Powered Content Generator",
+    description:
+      "An intelligent content generation platform leveraging OpenAI's GPT APIs to produce SEO-optimized blog posts, ad copy, and product descriptions. Features prompt chaining, tone customization, and batch processing for marketing teams.",
+    tech: ["Python", "Django", "OpenAI API", "Celery", "Redis", "PostgreSQL"],
+    outcome:
+      "Reduced content creation time by 70%, generating 500+ pieces of marketing content per month.",
+    category: "AI / LLM",
+  },
+  {
+    title: "AI-Assisted Code Review Pipeline",
+    description:
+      "A custom CI pipeline integration that uses LLMs to automatically review pull requests, flag potential bugs, suggest improvements, and enforce coding standards before human review.",
+    tech: ["Python", "OpenAI API", "GitHub Actions", "LangChain", "Docker"],
+    outcome:
+      "Cut code review turnaround by 50% and caught 30% more issues before production.",
+    category: "AI / DevOps",
   },
 ];
 

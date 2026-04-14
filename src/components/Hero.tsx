@@ -17,8 +17,9 @@ export default function Hero() {
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary-400/10 dark:bg-primary-600/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/3 right-1/3 w-80 h-80 bg-accent-400/8 dark:bg-accent-500/8 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-500/8 dark:bg-primary-500/8 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-primary-100/30 to-transparent dark:from-primary-900/20 dark:to-transparent rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-br from-primary-100/30 via-accent-100/10 to-transparent dark:from-primary-900/20 dark:via-accent-900/10 dark:to-transparent rounded-full blur-3xl" />
       </div>
 
       {/* Grid pattern overlay */}
