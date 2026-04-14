@@ -5,7 +5,6 @@ import {
   FiZap,
   FiTarget,
   FiBox,
-  FiTrendingUp,
   FiCpu,
   FiCheck,
 } from "react-icons/fi";
@@ -19,7 +18,6 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   tracking: FiTarget,
   saas: FiBox,
   ai: FiCpu,
-  performance: FiTrendingUp,
 };
 
 export default function Services() {

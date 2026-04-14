@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import {
-  FiServer,
   FiMonitor,
   FiLink,
   FiDatabase,
@@ -12,10 +11,9 @@ import SectionHeader from "./SectionHeader";
 import { skills } from "../data/siteData";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  backend: FiServer,
+  backend: FiDatabase,
   frontend: FiMonitor,
   integrations: FiLink,
-  databases: FiDatabase,
   devops: FiCloud,
   ai: FiCpu,
   tools: FiTool,

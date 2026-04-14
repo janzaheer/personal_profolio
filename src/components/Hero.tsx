@@ -45,7 +45,15 @@ export default function Hero() {
           >
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
             <span className="text-sm font-medium text-primary-700 dark:text-primary-400">
-              Available for new opportunities
+              Currently building at{" "}
+              <a
+                href="https://cloaked.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold underline underline-offset-2 decoration-primary-400/50 hover:decoration-primary-500 transition-colors"
+              >
+                Cloaked
+              </a>
             </span>
           </motion.div>
         </motion.div>

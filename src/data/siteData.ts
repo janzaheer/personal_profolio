@@ -1,7 +1,7 @@
 export const siteData = {
   name: "Zaheer Jan",
   title: "Lead Platform Engineer",
-  tagline: "Software Engineer | AI-Augmented Builder | Founder of Zedtac",
+  tagline: "Software Engineer | AI-Augmented Builder",
   description:
     "Building scalable backend systems, APIs, and AI-powered digital solutions that power modern businesses.",
   email: "zaheerjan0@gmail.com",
@@ -16,13 +16,13 @@ export const aboutText = [
   "A professional Software Engineer with over 10 years of experience in software development, deployment, and system infrastructure. I specialize in building scalable backend systems, RESTful APIs, and automation pipelines that drive real business outcomes.",
   "My expertise lies in Python/Django ecosystem, where I've architected and shipped production systems for privacy-focused products, international remittance platforms, e-commerce solutions, and marketing automation engines.",
   "I actively leverage AI as a professional multiplier — using tools like ChatGPT, GitHub Copilot, Claude, and Cursor AI to accelerate development, automate code reviews, generate boilerplate, debug complex systems, and build AI-integrated features. I believe the modern engineer isn't replaced by AI — they're amplified by it.",
-  "As the founder of Zedtac, I bridge the gap between software engineering and digital marketing — building custom solutions for ads tracking, conversion systems, and SaaS platforms that help businesses scale.",
+  "I also bridge the gap between software engineering and digital marketing — building custom solutions for ads tracking, conversion systems, and SaaS platforms that help businesses scale.",
   "I'm a self-learner who thrives in fast-paced environments, adapts quickly to new challenges, and delivers high-quality code with minimal supervision. My background spans backend development, cloud infrastructure (AWS), DevOps practices, AI-augmented workflows, and frontend development with Vue.js.",
 ];
 
 export const skills = {
   backend: {
-    title: "Backend",
+    title: "Backend & Databases",
     items: [
       "Python",
       "Django",
@@ -30,7 +30,10 @@ export const skills = {
       "Flask",
       "Celery",
       "REST APIs",
-      "Ruby on Rails",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
     ],
   },
   frontend: {
@@ -48,10 +51,6 @@ export const skills = {
       "Bandwidth",
     ],
   },
-  databases: {
-    title: "Databases",
-    items: ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "FaunaDB"],
-  },
   devops: {
     title: "DevOps & Infrastructure",
     items: [
@@ -63,7 +62,6 @@ export const skills = {
       "Git",
       "CircleCI",
       "Heroku",
-      "Netlify",
     ],
   },
   ai: {
@@ -86,7 +84,6 @@ export const skills = {
       "TDD",
       "Sentry",
       "Coralogix",
-      "Redis",
       "Elasticsearch",
       "Jira",
       "Trello",
@@ -96,12 +93,12 @@ export const skills = {
 
 export const services = [
   {
-    title: "Backend Development",
+    title: "Backend Development & Scaling",
     description:
-      "Robust, scalable backend systems built with Python/Django that handle millions of requests. From database design to API architecture, I build systems that grow with your business.",
+      "Robust, scalable backend systems built with Python/Django that handle millions of requests. From database design and API architecture to performance optimization, caching strategies, and infrastructure tuning — systems built to grow with your business.",
     benefits: [
       "Scalable architecture",
-      "Clean, maintainable code",
+      "Performance optimization",
       "Production-ready systems",
     ],
     icon: "server",
@@ -161,23 +158,12 @@ export const services = [
     ],
     icon: "ai",
   },
-  {
-    title: "Performance & Scaling",
-    description:
-      "Optimize existing systems for speed and scale. Database optimization, caching strategies, async processing, and infrastructure tuning for high-traffic applications.",
-    benefits: [
-      "Database optimization",
-      "Caching strategies",
-      "Load handling",
-    ],
-    icon: "performance",
-  },
 ];
 
 export const experience = [
   {
     company: "Cloaked",
-    url: "https://cloaked.app/",
+    url: "https://cloaked.com",
     role: "Lead Platform Engineer",
     location: "USA (Remote)",
     period: "June 2021 – Present",
